@@ -7,6 +7,7 @@ Proposta: Criar aplicativo que permita realizar votação de uma assembleia (Age
 - OpenFeign (comunicação externa);
 - MongoDB para armazenamento;
 - OpenAI para documentação/swagger;
+- JUnit;
 - Mockito para testes unitários;
 
 # Desafios técnicos
