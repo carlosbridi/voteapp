@@ -8,10 +8,10 @@ import br.com.vote.documents.EnumStatusPauta;
 import br.com.vote.exception.BussinessException;
 import br.com.vote.exception.NotFoundException;
 import br.com.vote.repository.AgendaRepository;
-import br.com.vote.service.ValidateAgendaOpen;
+import br.com.vote.service.ValidateAgendaOpenService;
 
 @Component
-public class ValidateAgendaOpenServiceImpl implements ValidateAgendaOpen {
+public class ValidateAgendaOpenServiceImpl implements ValidateAgendaOpenService {
 
 	@Autowired
 	private AgendaRepository agendaRepository;

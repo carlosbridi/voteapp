@@ -1,6 +1,6 @@
 package br.com.vote.service;
 
-public interface RegisterVote {
+public interface RegisterVoteService {
 
 	void execute(String agendaId, String vote);
 	

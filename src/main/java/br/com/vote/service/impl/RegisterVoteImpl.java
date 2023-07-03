@@ -9,10 +9,10 @@ import org.springframework.stereotype.Component;
 
 import br.com.vote.documents.EnumVote;
 import br.com.vote.documents.Score;
-import br.com.vote.service.RegisterVote;
+import br.com.vote.service.RegisterVoteService;
 
 @Component
-public class RegisterVoteImpl implements RegisterVote {
+public class RegisterVoteImpl implements RegisterVoteService {
 
 	@Autowired
 	private MongoOperations mongoOperations;

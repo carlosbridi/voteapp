@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CPFResponse {
+public class DocumentResponse {
 
 	private String status;
 	

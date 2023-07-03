@@ -1,6 +1,6 @@
 package br.com.vote.service;
 
-public interface ValidateAgendaOpen {
+public interface ValidateAgendaOpenService {
 
 	void execute(String agendaId);
 	

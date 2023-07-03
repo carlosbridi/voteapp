@@ -8,7 +8,7 @@ import br.com.vote.config.FeignConfiguration;
 import br.com.vote.gateway.http.response.CPFResponse;
 
 @FeignClient(url = "${br.com.vote.integration.cpfurl}", name = "${br.com.vote.integration.cpfname}", configuration = FeignConfiguration.class)
-public interface CPFValidator {
+public interface DocumentValidator {
 
 	@GetMapping(path = "/{cpf}")
 	CPFResponse findCPFValid(@PathVariable String cpf);
