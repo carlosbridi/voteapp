@@ -35,4 +35,8 @@ Proposta: Criar aplicativo que permita realizar votação de uma assembleia (Age
 - Utilizei a estratégia de interfaces "<name>Service" e a implementação "<name>ServiceImpl" para garantir a injeção de agnóstica da classe, sem expor a implementação, em um cenário mais complexo, com múltiplas classes, qualificadores poderiam orientar a classe que seria importada para o Framework; 
 - Foram implementados testes unitários das rotinas;
 
-
+# Rodar App
+- Clonar a app localmente
+- Iniciar ela e acessar: http://localhost:8080/swagger-ui/index.html
+- Criar uma Agenda (Assembléia)
+- Copiar o ID retornado e informar o ID no endoint de votação junto com o documento (cpf) do votante. No corpo da requisição, deverá ser informado YES ou NO como opções para voto.
